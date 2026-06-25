@@ -4,3 +4,16 @@
     box-sizing:border-box;
     font-family:'Poppins',sans-serif;
 }
+body{
+    min-height:100vh;
+    background:linear-gradient(
+        135deg,
+        #0f172a,
+        #1e293b,
+        #2563eb
+    );
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    color:white;
+}
