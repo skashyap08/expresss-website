@@ -18,3 +18,11 @@ app.get('/about', (req, res) => {
 app.get('/contact', (req, res) => {
     res.sendFile(path.join(__dirname, 'views', 'contact.html'));
 });
+// 404 Page
+app.use((req, res) => {
+    res.status(404).send(`
+        <h1 style="text-align:center;margin-top:100px;">
+        404 Page Not Found
+        </h1>
+    `);
+});
