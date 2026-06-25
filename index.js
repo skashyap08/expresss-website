@@ -26,3 +26,6 @@ app.use((req, res) => {
         </h1>
     `);
 });
+app.listen(PORT, () => {
+    console.log(`Server running on http://localhost:${PORT}`);
+});
