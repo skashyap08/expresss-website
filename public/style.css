@@ -34,3 +34,7 @@ body{
 
     animation:fadeIn 1s ease;
 }
+h1{
+    font-size:3rem;
+    margin-bottom:20px;
+}
